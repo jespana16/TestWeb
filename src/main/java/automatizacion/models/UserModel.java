@@ -19,10 +19,10 @@ public class UserModel {
     int diaNacimiento;
     int mesNacimiento;
     int annoNacimiento;
-    String Empresa;
-    String Ciudad;
-    String Estado;
-    int CodigoPostal;
-    String Pais;
+    String direccion;
+    String ciudad;
+    String estado;
+    int codigoPostal;
+    String pais;
     String telefono;
 }
