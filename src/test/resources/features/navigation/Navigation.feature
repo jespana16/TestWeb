@@ -3,10 +3,11 @@ Característica: Navegacion de los usuarios en las categorias del portal new exp
 
   Esquema del escenario: Como usuario desconocido se desea navegar en las categorias del portal new experience
     Dado que "un usuario desconocido" se encuentra en el portal new experience
-    Cuando ingresa a la categoria <categoria>
-    Entonces puede visualizar los productos de dicha categoria
+    Cuando se ingresa a la categoria <categoria>
+    Entonces se puede visualizar las subcategorias de la categoria <categoria>
+    Y los productos de la categoria <categoria>
     Ejemplos:
       |categoria|
-      |women    |
-      |dresses  |
-      |T-Shirts |
+      |Women    |
+      |Dresses  |
+      |T-shirts |

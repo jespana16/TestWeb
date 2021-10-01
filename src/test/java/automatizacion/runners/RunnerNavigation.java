@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = {"src/test/resources/features/start/Navigation.feature"},
+        features = {"src/test/resources/features/navigation/Navigation.feature"},
         glue = {"automatizacion.steps"},
         monochrome = true)
 public class RunnerNavigation {}

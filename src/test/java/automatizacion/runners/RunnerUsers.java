@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = {"src/test/resources/features/start/Users.feature"},
+        features = {"src/test/resources/features/users/Users.feature"},
         glue = {"automatizacion.steps"},
         monochrome = true)
 public class RunnerUsers {}
